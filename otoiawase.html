@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<title>html,css,jsの練習</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="このサイトは架空のサイトです。実在しません">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="css/otoiawase_style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div id="main_head">
+			<p class="btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</p>
+			<nav id="navi">
+				<ul class="menu">
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="access.html">アクセス</a></li>
+					<li><a href="otoiawase.html">問い合わせ</a></li>
+					<li><a href="menu.html">メニュー</a></li>
+				</ul>
+			</nav>
+			<h1>Restaurant＆Cafe</h1>
+			<p>このサイトは架空のサイトです。実在しません。</p>	
+		</div>
+	</header>
+	<main>
+		<form method="post" action="otoiawase.html">
+			<div class="name_main">
+				<span class="name">名前</span>
+				<input type="text" id="keywd" placeholder="3文字以下">
+			</div>
+			<div class="name_main">
+				<span class="name">年齢</span>
+				<input type="text" id="keywd2" class="length3" placeholder="2桁以下">
+			</div>
+			<div class="name_main">
+				<button type="submit" id="registBtn" onclick="check()">送信</button>
+				
+			</div>
+		</form>
+	</main>
+	<footer>
+		<p class="mein">このサイトではjQueryの練習がメインです。</p>
+	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/otoiawase.js"></script>
+</body>
+</html>
